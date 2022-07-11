@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,500&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+body {
+  font-family: 'IBM Plex Mono', monospace;
+  position: relative;
+  background-color: #080808;
+  color: #9C9C9C;
+}
+
+.mainnav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.mainnav .nav {
+  width: 1110px;
+  height: 70px;
+  background-color: #1B1B1B;
+}
+
+.mainnav .nav .sub {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.mainnav .nav a {
+  text-decoration: none;
+  color: #9C9C9C;
+}
+
+.mainnav .nav ul li {
+  display: inline;
+}
+
+.intro .row img {
+  width: 300px;
+  border-radius: 50%;
+}
+
+.work ul {
+  padding-left: 0;
+  padding-top: 10px;
+}
+
+.work ul li {
+  display: inline;
+}
+
+.work a {
+  text-decoration: none;
+  color: #9C9C9C;
+  border: 1px solid #1B1B1B;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+@media (max-width: 480px) {
+  .mainnav .nav {
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=style.css.map */
